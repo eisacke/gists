@@ -77,12 +77,15 @@ Pad.Carousel = {
     }.bind(this));
 
     this.$inputs.on('focus', function() {
+      console.log('focus');
       this.userFocused = true;
     }.bind(this)).on('blur', function() {
+      console.log('blur');
       this.userFocused = false;
     }.bind(this));
 
     $(window).on('keypress', function(e) { // go to next slide if user presses enter whilst focused on an input
+      console.log('keypress', e.keyCode);
       if(e.keyCode === 13 && this.userFocused) this.$carousel.slick('slickNext');
     }.bind(this));
   },

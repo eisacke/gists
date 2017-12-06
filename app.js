@@ -78,23 +78,15 @@ Pad.Carousel = {
 
     console.log(this.$inputs);
 
-    // this.$inputs.focus(function() {
-    //   console.log('focus');
-    //   this.userFocused = true;
-    // }.bind(this));
+    this.$inputs.on('click', function() {
+      console.log('click');
+      this.userFocused = true;
+    }.bind(this));
 
-    this.$inputs.blur(function() {
+    this.$inputs.on('blur', function() {
       console.log('blur');
       this.userFocused = false;
     }.bind(this));
-
-    for(let i=0; i < this.$inputs.length; i++) {
-      this.$inputs.get(i).addEventListener('focus', function() {
-        console.log('in here');
-        console.log('focus');
-        this.userFocused = true;
-      }.bind(this), true);
-    }
 
     $(window).on('keypress', function(e) { // go to next slide if user presses enter whilst focused on an input
       console.log('keypress', e.keyCode);

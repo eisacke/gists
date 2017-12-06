@@ -35,7 +35,7 @@ Pad.Carousel = {
       if(question.logos) {
         let images = '';
         question.logos.forEach(function(logo) {
-          images = images += `<img src="images/logos/${logo}.jpg" alt="${logo}">`;
+          images = images += `<img src="${logo}" alt="${logo}">`;
         });
 
         logos = `<div class="slide__logos">${images}</div>`;

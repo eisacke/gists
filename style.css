@@ -83,6 +83,8 @@
   padding-left: 30px;
   padding-right: 30px;
   border: 0;
+  border-radius: 0;
+  box-shadow: none !important;
   line-height: inherit;
   text-decoration: none;
   font-weight: 400;

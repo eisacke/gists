@@ -76,6 +76,8 @@ Pad.Carousel = {
       this.$slides.eq(index).find('.slide__input input').focus();
     }.bind(this));
 
+    console.log(this.$inputs);
+
     this.$inputs.on('focus', function() {
       console.log('focus');
       this.userFocused = true;

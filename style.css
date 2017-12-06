@@ -57,15 +57,15 @@
   #pad-calc .note h4 {
     font-weight: 700;
     font-size: 20px;
+    line-height: 1.3;
     margin-bottom: 10px; }
 #pad-calc strong {
   font-weight: 700; }
 
 #pad-calc .calc {
   background-color: white;
-  padding: 40px;
-  max-width: 940px;
-  margin: 50px auto; }
+  padding: 60px 40px 40px;
+  max-width: 940px; }
 
 #pad-calc .calc__button, #pad-calc .calc__carousel__next, #pad-calc .calc__get-started {
   background-color: #ff3a89;
@@ -152,6 +152,7 @@
     position: static; } }
 #pad-calc .slide__heading {
   font-size: 22px;
+  line-height: 1.3;
   font-weight: 300;
   margin-right: 30px;
   margin-bottom: 20px; }
@@ -191,11 +192,13 @@
     left: 12px; }
 #pad-calc .slide__result__heading {
   font-size: 26px;
+  line-height: 1.3;
   font-weight: 300;
   width: 100%;
   margin-bottom: 10px; }
 #pad-calc .slide__result__subheading {
   font-size: 26px;
+  line-height: 1.3;
   font-weight: 300;
   width: 100%;
   margin-bottom: 10px; }

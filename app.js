@@ -138,9 +138,9 @@ Pad.Carousel = {
   questions: {
     tenant: [
       {
-        text: 'How much do you spend on <strong>fashion</strong> per month?',
+        text: 'How much do you spend on <strong>clothing</strong> per month?',
         saving: 0.08,
-        id: 'fashion',
+        id: 'clothing',
         logos: ['https://daks2k3a4ib2z.cloudfront.net/59df4f1b14d0c5000130e3e2/5a27ce6eae0b670001168992_topshop.jpg', 'https://daks2k3a4ib2z.cloudfront.net/59df4f1b14d0c5000130e3e2/5a27ce6b9ef8d4000165bfe0_topman.jpg', 'https://daks2k3a4ib2z.cloudfront.net/59df4f1b14d0c5000130e3e2/5a27ce61564b3a000140b6a2_gap.jpg', 'https://daks2k3a4ib2z.cloudfront.net/59df4f1b14d0c5000130e3e2/5a27ce647a305e0001536d81_new-look.jpg', 'https://daks2k3a4ib2z.cloudfront.net/59df4f1b14d0c5000130e3e2/5a27ce627a305e0001536d7e_debenhams.jpg', 'https://daks2k3a4ib2z.cloudfront.net/59df4f1b14d0c5000130e3e2/5a27ce6a7a305e0001536d88_river-island.jpg', 'https://daks2k3a4ib2z.cloudfront.net/59df4f1b14d0c5000130e3e2/5a27ce66ae0b67000116898e_house-of-fraser.jpg', 'https://daks2k3a4ib2z.cloudfront.net/59df4f1b14d0c5000130e3e2/5a27ce669ef8d4000165bfdf_john-lewis.jpg']
       },
       {

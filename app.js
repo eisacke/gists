@@ -78,10 +78,10 @@ Pad.Carousel = {
 
     console.log(this.$inputs);
 
-    this.$inputs.on('focus', function() {
+    this.$carousel.on('focus', 'input', function() {
       console.log('focus');
       this.userFocused = true;
-    }.bind(this)).on('blur', function() {
+    }.bind(this)).on('blur', 'input', function() {
       console.log('blur');
       this.userFocused = false;
     }.bind(this));

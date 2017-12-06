@@ -76,31 +76,14 @@ Pad.Carousel = {
       this.$slides.eq(index).find('.slide__input input').focus();
     }.bind(this));
 
-    console.log(this.$inputs);
-
-    // this.$inputs.on('click', function() {
-    //   console.log('click');
-    //   this.userFocused = true;
-    // }.bind(this));
-
-    // this.$inputs.on('blur', function() {
-    //   console.log('blur');
-    //   this.userFocused = false;
-    // }.bind(this));
-
-    $(document).on('focus', 'slide__input input' ,function() {
-      console.log('focus');
+    // not working on webflow and can't work out why
+    this.$inputs.on('focus', function() {
       this.userFocused = true;
-    }.bind(this));
-
-    $(document).on('blur', 'slide__input input' ,function() {
-      console.log('blur');
+    }.bind(this)).on('blur', function() {
       this.userFocused = false;
     }.bind(this));
 
-
     $(window).on('keypress', function(e) { // go to next slide if user presses enter whilst focused on an input
-      console.log('keypress', e.keyCode);
       if(e.keyCode === 13 && this.userFocused) this.$carousel.slick('slickNext');
     }.bind(this));
   },
